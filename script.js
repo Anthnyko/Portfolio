@@ -1,2 +1,10 @@
-// Optional JavaScript for interactivity
-console.log("Portfolio Loaded!");
+document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.getElementById("theme-toggle");
+
+  toggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+    toggle.textContent = document.body.classList.contains("dark")
+      ? "☀️"
+      : "🌙";
+  });
+});
