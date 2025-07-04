@@ -68,7 +68,7 @@ body.dark {
 }
 
 body.dark header {
-  background-color: #222;
+  background-color: #333;
   color: #f4f4f4;
 }
 
@@ -83,7 +83,7 @@ body.dark footer {
 
 body.dark #resume {
     background-color: whitesmoke;
-    color: black;
+    color: #333;
 }
 
 #theme-toggle {
@@ -91,5 +91,22 @@ body.dark #resume {
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+.project-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2em;
+}
+
+.project-card {
+    background: #fff;
+    padding: 1.5em;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.dark .project-card{
+    background: #222;
 }
 
