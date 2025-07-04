@@ -8,7 +8,7 @@ This is a simple personal portfolio website to showcase my skills and projects.
 - Contact
 
 ## Live Demo
-[Add your GitHub Pages link here]
+https://anthnyko.github.io/Portfolio/
 
 ## Built With
 - HTML5

@@ -110,3 +110,17 @@ body.dark .project-card{
     background: #222;
 }
 
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact li {
+  margin-bottom: 0.5em;
+}
+
+#contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
